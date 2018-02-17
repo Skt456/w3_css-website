@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Gramina Bazar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script> </script>
+</head>
+<body>
+<!-- navigation -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-mobile">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-hover-teal w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-wide w3-btn w3-large w3-padding-large w3-padding-large" style="font-size:18px;">
+      <strong>JaySANTOSHI S.H.G</strong></a>
+
+      <button onclick="document.getElementById('signin').style.display='block'"
+        class="w3-button w3-blackw3-bar-item w3-wide w3-right w3-padding-large w3-hover-teal w3-hide-small">SIGN IN
+      </button>
+    <a href="#contact" class="w3-bar-item w3-wide w3-right w3-button w3-padding-large w3-hover-teal w3-hide-small"> CONTACT </a>
+    <a href="#order" class="w3-bar-item w3-wide w3-right w3-button w3-padding-large w3-hover-teal w3-hide-small"> ORDER </a>
+    <a href="#about" class="w3-bar-item w3-wide w3-right w3-button w3-padding-large w3-hover-teal w3-hide-small"> ABOUT </a>
+  <a href="#products" class="w3-bar-item w3-wide w3-right w3-button w3-padding-large w3-hover-teal w3-hide-small"> PRODUCTS </a>
+</div>
+</div>
+
+<!-- navigation on smallscreen-->
+<div id="toggle" class="w3-bar-block w3-black w3-center w3-wide w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#products" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">PRODUCTS</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-teal"> ABOUT</a>
+  <a href="#order" class="w3-bar-item w3-button w3-padding-large w3-hover-teal"> ORDER </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-teal"> CONTACT </a>
+    <button onclick="document.getElementById('signin').style.display='block'"
+      class="w3-bar-item  w3-padding-large w3-hover-teal w3-button w3-black ">SIGN IN
+    </button>
+  </a>
+</div>
+
+<!-- SIGN IN MODAL-->
+<div id="signin" class="w3-modal">
+   <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+     <div class="w3-center"><br>
+       <span onclick="document.getElementById('signin').style.display='none'"
+         class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;
+       </span>
+     </div>
+
+     <form class="w3-container" action="/action_page.html">
+       <div class="w3-section">
+         <label><b>Username</b></label>
+         <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+         <label><b>Password</b></label>
+         <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+         <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+         <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+       </div>
+     </form>
+
+     <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+       <button onclick="document.getElementById('signin').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+       <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+     </div>
+
+   </div>
+ </div>
+<!-- showcase -->
+  <section class="showcase" id="home">
+    <div class="w3-container w3-center">
+      <h1 class="w3-text-shadow w3-animate-opacity"> <b> WELCOME</b></h1>
+      <hr>
+      <p class="w3-animate-opacity">. You can shop here handmade Pickles and papads.
+          If you have 1-3  or more products for sale microStore is perfect template for you!
+          MicroStore is a simple modern One page 100% responsive template
+      </p>
+      <a href="#products"><button class= "w3-btn w3-teal w3-border-black w3-opacity" > BROWSE OUR PRODUCTS</button></a>
+    </div>
+  </section>
+
+              <!-- product section -->
+  <section class="section w3-padding-64 w3-center" id=products>
+  <div class="w3-container ">
+    <h2> <strong> PRODUCTS </strong> </h2>
+      <div class="w3-row-padding w3-mobile">
+        <div class=" w3-quarter" >
+          <div class="w3-card">
+          <img src="images/pickel1.jpg" style="width:100%">
+            <p><b>Mango Pickel.</b>&nbsp <u>35/Kilo</u></p>
+            <a href="#order" class="w3-btn w3-teal w3-hover-red w3-align-right w3-margin-bottom" > Buy Now</a>
+          </div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="w3-card">
+          <img src="images/pickel1.jpg" style="width:100%">
+            <p><b>Mango Pickel.</b>&nbsp <u>35/Kilo</u></p>
+            <a href="#order" class="w3-btn w3-teal w3-hover-red w3-align-right w3-margin-bottom" > Buy Now</a>
+          </div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="w3-card">
+          <img src="images/pickel1.jpg" style="width:100%">
+            <p><b>Mango Pickel.</b>&nbsp <u>35/Kilo</u></p>
+            <a href="#order" class="w3-btn w3-teal w3-hover-red w3-align-right w3-margin-bottom" > Buy Now</a>
+          </div>
+        </div>
+
+        <div class=" w3-quarter">
+          <div class="w3-card">
+          <img src="images/pickel1.jpg" style="width:100%">
+            <p><b>Mango Pickel.</b>&nbsp <u>35/Kilo</u></p>
+            <a href="#order" class="w3-btn w3-teal w3-hover-red w3-align-right w3-margin-bottom" > Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="w3-row-padding">
+        <div class=" w3-quarter">
+            <div class="w3-card">
+            <img src="images/papad2.jpg" style="width:100%">
+              <p><b>Rassi Papad.</b>&nbsp <u>3o/Pocket</u></p>
+              <a href="#order" class="w3-btn w3-teal w3-hover-red w3-align-right w3-margin-bottom" > Buy Now</a>
+            </div>
+        </div>
+
+        <div class="w3-quarter ">
+          <div class="w3-card">
+          <img src="images/papad2.jpg" style="width:100%">
+            <p><b>Rassi Papad.</b>&nbsp <u>3o/Pocket</u></p>
+            <a href="#order" class="w3-btn w3-teal w3-hover-red w3-align-right w3-margin-bottom" > Buy Now</a>
+          </div>
+        </div>
+
+        <div class="w3-quarter" >
+          <div class="w3-card">
+          <img src="images/papad2.jpg" style="width:100%">
+            <p><b>Rassi Papad.</b>&nbsp <u>3o/Pocket</u></p>
+            <a href="#order" class="w3-btn w3-teal w3-hover-red w3-align-right w3-margin-bottom" > Buy Now</a>
+          </div>
+        </div>
+
+        <div class="w3-quarter ">
+          <div class="w3-card">
+          <img src="images/papad2.jpg" style="width:100%">
+            <p><b>Rassi Papad.</b>&nbsp <u>3o/Pocket</u></p>
+            <a href="#order" class="w3-btn w3-teal w3-hover-red w3-align-right w3-margin-bottom" > Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+ <hr>
+  <div class="w3-row w3-padding-large">
+      <div class="w3-twothird">
+        <h3>Free Delivery eilgible above Order 500 will last 1week 10:20:00pm </h3>
+      </div>
+      <div class="w3-third">
+        <a href="#order">
+          <button class="w3-button w3-large w3-wide w3-teal w3-hover-red ">ORDER</button>
+        </a>
+      </div>
+  </div>
+</section>
+
+      <!-- about us -->
+<section class="w3-section w3-padding-64" id=about>
+  <div class="w3-row w3-container">
+     <div class="w3-row">
+        <h2 class="w3-col m3 w3-white w3-center" style="padding:17px 0 0 0;"><strong>ABOUT US </strong></h2>
+          <div class="w3-col m7" style="padding:0 50px 40px 70px;">
+           <div class="w3-container w3-show">
+              <p>Gramina Bazar is a GOVT. Organisation.If you have 1-3  or more products for sale microStore is perfect template for you!</p>
+                <p>MicroStore is a simple modern One page 100% responsive template</p>
+
+             <button onclick="accFunction('read')" class="w3-btn w3-teal w3-left">Read More</button>
+              <div id="read" class="w3-container w3-hide">
+                <p>   If you have 1-3  or more products for sale microStore is perfect template for you!
+                      MicroStore is a simple modern One page 100% responsive template.
+                      Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit,
+                      lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna.
+                      Integer suscipit lectus eu enim porttitor fringilla.
+                      Ut blandit, urna in auctor euismod, arcu eros pharetra metus,a porta purus libero a nibh.Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus,
+                      vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.
+                </p>
+              </div>
+            </div>
+         </div>
+      </div>
+    </div
+    >
+    <!--imageSlider -->
+    <div class="mySlides w3-display-container w3-center">
+        <img src="images/fb2.jpg" style="width:100%;max-height:300px">
+        <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <p><b>This is one of the most beautiful site I have ever seen in my life.
+              Your site is great!</b></p>
+              <h3>Brad Cooper.</h3>
+        </div>
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+        <img src="images/71f.jpg" style="width:100%;max-height:300px">
+        <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <p><b>Hugely thought out!
+              Trying it now.I like the use of shape and background image!</b></p>
+          <h3>John Doe</h3>
+
+        </div>
+    </div>
+
+    <div class="mySlides w3-display-container w3-center">
+      <img src="images/26.jpg" style="width:100%;max-height:300px">
+        <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <p><b>The Difference between ordinary and extraordinary is just that little extra.
+              </b></p>
+          <h3>Albert Einstein</h3>
+
+        </div>
+    </div>
+
+    <div class="w3-container w3-center w3-blue-gray" id="newsletter">
+      <h2 class="w3-text-shadow w3-animate-opacity"> <b>Stay In Touch</b></h2>
+      <h4>Sign Up for Email Updates on News& Offers</h4>
+        <div class="w3-row-padding" style="padding:0 30px">
+           <input class="w3-input" type="text" placeholder="Enter Your Email Here.." name="email"
+            style="text-align:center; color:black; width:50%; height:35px; box-sizing:border-box; border:3px initial; padding:4px -20px;  display: inline-block; ">
+          <button class= "w3-btn w3-medium w3-wide w3-round-large w3-teal w3-opacity" style="margin:1px -6px 4px ">SUBSCRIBE </button>
+
+        </div>
+    </div>
+</section>
+
+      <!-- ORDER FORM -->
+<section class="w3-padding-64" id="order">
+  <div class="w3-container w3-center">
+     <h2 style="padding:0px 0px 20px 0px;"> <strong>ORDER FORM</strong> </h2>
+     <div class="w3-responsive">
+       <table class="w3-table w3-striped w3-bordered w3-large w3-centered">
+        <thead >
+          <tr>
+            <td><u><b>Products</b></u></td>
+            <td><u><b>Unit Cost</b></u></td>
+            <td>
+              <u><b class="w3-hide-small">Quantity</b></u>
+              <u><b class="w3-show-small w3-hide-large w3-hide-medium">QNTY</b></u>
+            </td>
+            <td><u><b>Total</b></u></td>
+          </tr>
+        </thead>
+
+         <tbody>
+            <tr>
+              <td>
+                  <select class="w3-select w3-centered" placeholder="Pickles" name="option" >
+                    <option value="1">MANGO</option>
+                    <option value="2">NAVRATNA</option>
+                    <option value="3">LEMON</option>
+                  </select>
+              </td>
+              <td>70 </td>
+              <td>Qnt 1,2,3,</td>
+              <td>Total Count</td>
+            </tr>
+            <tr>
+              <td>Papads</td>
+              <td>70 </td>
+              <td>Qnt 1,2,3,</td>
+              <td>Total Count</td>
+            </tr>
+            <tr>
+              <td>Muduki</td>
+              <td>70 </td>
+              <td>Qnt 1,2,3,</td>
+              <td>Total Count</td>
+            </tr>
+         </tbody>
+
+       </table>
+      </div>
+
+
+ <form class="w3-container w3-mobile">
+        <div class="w3-col m6">
+              <h4><strong>Payment Method</strong></h4>
+                <div class="w3-row-padding">
+                  <div class="w3-col" style="width:70%;">
+                <input class="w3-input  w3-border w3-border-teal" style="width:100%; height:40px;" placeholder="card number" type="text" name="card-number">
+                  </div>
+                  <div class="w3-col" style="width:30%;">
+                <input class="w3-input  w3-border w3-border-teal" style="width:100%; height:40px;" placeholder="code" type="text" name="code">
+                  </div>
+                </div>
+                        <br>
+                <div class="w3-row-padding">
+                    <div class="w3-col" style="width:50%;">
+                    <select class="w3-input w3-select  w3-border w3-border-teal" style="width:100%; height:40px;" placeholder="Month" type="text" name="option">
+                          <option value="1">JAN</option>
+                          <option value="2">FEB</option>
+                          <option value="3">MAR</option>
+                          <option value="4">APR</option>
+                          <option value="5">MAY</option>
+                          <option value="6">JUNE</option>
+                          <option value="7">JULY</option>
+                          <option value="8">AUG</option>
+                          <option value="9">SEP</option>
+                          <option value="10">OCT</option>
+                          <option value="11">NOV</option>
+                          <option value="12">DEC</option>
+                        </select>
+                    </div>
+                    <div class="w3-col" style="width:50%;">
+                      <select class="w3-input  w3-border w3-border-teal" style="width:100%; height:40px;" placeholder="year" type="text" name="option">
+                          <option value="1">2016</option>
+                          <option value="2">2017</option>
+                          <option value="3">2018</option>
+                          <option value="4">2019</option>
+                          <option value="4">2020</option>
+                        </select>
+                    </div>
+                </div>
+
+                <h4><strong>Information</strong></h4>
+                  <div class="w3-row-padding">
+                      <div class="w3-col" style="width:50%;">
+                      <input class="w3-input  w3-border w3-border-teal" style="width:100%; height:40px;" placeholder="first name" type="text" name="first name">
+                      </div>
+                      <div class="w3-col" style="width:50%;" >
+                      <input class="w3-input  w3-border w3-border-teal" style="width:100%; height:40px;" placeholder="last name" type="text" name="last name">
+                      </div>
+                  </div>
+                             <br>
+                  <div class="w3-row w3-padding">
+                    <div class="w3-col" style="width:100%;">
+                    <input class="w3-input  w3-border w3-border-teal" style="width:100%; height:40px;" placeholder="Enter Your Email" type="text" name="Email">
+                    </div>
+                  </div>
+
+                  <h4><strong>If You have a Coupon Code</strong></h4>
+                  <div class="w3-row w3-padding">
+                    <div class="w3-col" style="width:100%;">
+                      <input class="w3-input w3-border w3-black" style="width:100%; height:40px;" placeholder="Enter your Coupon Code" type="text" name="code">
+                      <button class= "w3-btn w3-xlarge w3-round w3-wide w3-teal" style="padding:1px 4px 2px 4px; width:50%"> Check </button>
+
+                    </div>
+                  </div>
+            </div>
+        <div class="w3-col m6">
+            <h4><strong>Delivery Adress</strong></h4>
+              <div class="w3-row w3-padding">
+                <div class="w3-col" style="width:100%;" >
+                  <input class="w3-input w3-white  w3-border w3-border-teal"  style="width:100%; height:40px;" placeholder="Your Street Address" type="text">
+                </div>
+              </div>
+              <div class="w3-row w3-padding">
+                <div class="w3-col" style="width:100%;" >
+                  <input class="w3-input w3-white  w3-border w3-border-teal"  style="width:100%; height:40px;" placeholder="Orissa" type="text">
+                </div>
+              </div>
+              <div class="w3-row w3-padding ">
+                <div class="w3-col" style="width:100%;" >
+                  <input class="w3-input w3-white  w3-border w3-border-teal"  style="width:100%; height:40px;" placeholder="District" type="text">
+                </div>
+              </div>
+              <div class="w3-row w3-padding ">
+                <div class="w3-col" style="width:100%;" >
+                  <input class="w3-input w3-white  w3-border w3-border-teal"  style="width:100%; height:40px;" placeholder="City" type="text">
+                </div>
+              </div>
+              <div class="w3-row w3-padding ">
+                <div class="w3-col" style="width:100%;" >
+                  <input class="w3-input w3-white w3-border w3-border-teal"  style="width:100%; height:40px;" placeholder="Pin-code" type="text">
+                </div>
+              </div>
+
+            <h4><strong>Order summary</strong></h4>
+            <div class="w3-row w3-margin">
+                      <table class="w3-table">
+                        <tbody>
+                         <tr>
+                           <td>Shopping Cost:</td>
+                           <td></td>
+                           <td class="text-right"> Free </td>
+                         </tr>
+                         <tr>
+                           <td>Total:</td>
+                           <td></td>
+                           <td id="total" class="text-right"> U.C * 70.</td>
+                         </tr>
+                        </tbody>
+                     </table>
+                  <div class="w3-col">
+                    <button class="w3-button  w3-wide w3-block w3-teal w3-hover-red" style="width:100%;">Order Product</button>
+                  </div>
+            </div>
+    </div>
+  </form>
+</section>
+
+<section class="w3-container w3-black" id="order">
+  <div class="w3-row w3-padding w3-margin-top w3-center w3-padding-large">
+     <div class="w3-col" style="width:25%;">
+       <i class="fa fa-thumbs-up w3-xxlarge w3-teal w3-padding-small w3-round-xlarge"></i>
+       <h3>HandMade Items </h3>
+     </div>
+     <div class="w3-col" style="width:25%;">
+       <i class="fa fa-trophy w3-xxlarge w3-teal w3-padding-small w3-round-xlarge"></i>
+        <h3>Food Quality Guarnteed</h3>
+     </div>
+     <div class="w3-col" style="width:25%;">
+       <i class="fa fa-truck w3-xxlarge w3-teal w3-padding-small w3-round-xlarge"></i>
+        <h3>Home Delivery</h3>
+     </div>
+     <div class="w3-col" style="width:25%;">
+       <i class="fa fa-lock w3-xxlarge w3-teal w3-padding-small w3-round-xlarge"></i>
+        <h3>Secure Payment</h3>
+     </div>
+  </div>
+</section>
+
+<!--contact form -->
+<section class="w3-padding-64 w3-mobile" id="contact">
+    <div class="w3-container w3-center ">
+      <h2> <strong> CONTACT </strong> </h2>
+      <P> Wanna Send A Message! Jusst Send It..<i class="fa fa-arrow-down"></i></P>
+       <div class="w3-row-padding w3-padding-small">
+         <div class="w3-col m4">
+           <address>
+								<strong><b>GRAMINA BAZAR.</b></strong><br>
+								New Bus Stand Road<br>
+								Berhampur, Orissa 760006<br>
+								974-348-7890<br>
+								GramiaBazar@gmail.com
+							</address>
+
+         </div>
+         <form class="w3-col m7 w3-container">
+           <div class="w3-row w3-padding ">
+             <div class="w3-col" style="width:100%;" >
+               <input class="w3-input w3-white  w3-border w3-border-teal"  style="width:100%; height:40px;" placeholder="Your name" type="text">
+             </div>
+           </div>
+           <div class="w3-row w3-padding">
+             <div class="w3-col" style="width:100%;" >
+               <input class="w3-input w3-white  w3-border w3-border-teal"  style="width:100%; height:40px;" placeholder="Your Email" type="text">
+             </div>
+           </div>
+           <div class="w3-row w3-padding">
+             <div class="w3-col" style="width:100%;" >
+             <textarea class="w3-input w3-white  w3-border w3-border-teal" placeholder="Your Message" style="width:100%; height:120px;"></textarea>
+             </div>
+           </div>
+           <div class="w3-row w3-padding">
+             <div class="w3-col" style="width:100%;" >
+               <button class="w3-input w3-button w3-teal w3-hover-red w3-border w3-wide"  style="width:100%; height:40px;"> SUBMIT </button>
+             </div>
+           </div>
+         </form>
+       </div>
+    </div>
+</section>
+
+<footer class="w3-container w3-black w3-mobile w3-padding-4" id=main-footer>
+    <div class="w3-row w3-center">
+    <div class="w3-col" style="width:20%">
+      <p class=""> &copy; Gramina Bazar 2018. <br> Designed By
+        <a href="https://twitter.com/456Shyamal" data-toggle="tooltip" title="SKT in Twitter."><b>S K T</b> </a>
+      </p>
+    </div>
+      <div class="w3-col w3-center w3-padding-16" style="width:60%">
+          <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w3-hover-red">
+            Terms & Condition</button>
+      </div>
+      <div class="w3-col w3-xlarge w3-padding-16" style="width:20%">
+        <a href="#" class="facebook"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="#" class="instagram"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="#" class="google"><i class="fa fa-google-plus w3-hover-opacity"></i></a>
+        <a href="#" class="pinterest"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+      </div>
+    </div>
+</footer>
+
+
+<div id="id01" class="w3-modal">
+ <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+      <header class="w3-container w3-black">
+       <span onclick="document.getElementById('id01').style.display='none'"
+       class="w3-button w3-teal w3-hover-red w3-xlarge w3-display-topright">&times;
+       </span>
+       <h2><center>TERMS & CONDITION </center></h2>
+      </header>
+
+      <div class="w3-bar w3-border-bottom ">
+       <button class="tablink w3-bar-item w3-button w3-hover-teal " onclick="openCity(event, 'Disclaimer')"><h4>Disclaimer</h4></button>
+       <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'Pricing Policy')"><h4>Pricing Policy</h4></button>
+       <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'Payment')"><h4>Payment</h4></button>
+       <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'Shipping')"><h4>Shipping</h4></button>
+       <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'Privacy Policy')"><h4>Privacy Policy</h4></button>
+       <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'Security')"><h4>Security</h4></button>
+       <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'Cookies')"> <h4>Cookies </h4></button>
+      </div>
+
+        <div id="Disclaimer" class="w3-container city">
+         <p><b>Jay SANTOSHI S.H.G</b> does not guarantee that all items shown are in stock at the time of your order.</p>
+         <p>In the event that an item is unavailable for whatever reason, We will contact you by e-mail.</p>
+         <p>Although we do our best to display correct images, correct colours, info and prices, errors may occur.</p>
+        </div>
+
+        <div id="Pricing Policy" class="w3-container city">
+         <p>Prices are shown in € (EURO). All prices include Danish VAT of 25%. Prices do not include service, payment and delivery charges.
+           Orders may be subjected to local taxes and/or import duties at your own expense. Tax-free shopping on microStore.com is not available.
+           micro Store the right to change prices of the products.
+           The prices of the products will, during the time of placing an order, be valid throughout the process. We however take reservations for typing errors.</p>
+        </div>
+
+        <div id="Payment" class="w3-container city">
+         <p>We accept the following credit- and debit cards: Visa, Mastercard, Maestro, Visa Electron, JCB, UnionPay and American Express.
+           The amount for your order will not be charged until your order is shipped from microStore. We also accept microStore online gift cards.</p>
+        </div>
+
+        <div id="Shipping" class="w3-container city">
+         <p>We know that you can’t wait to get your order so we do our best to ship your order on the following working day.
+         To follow the goods way to your closet you can track your order with the tracking number included in your shipping confirmation,
+          which you get by e-mail as soon as we dispatch your order.
+          Your order will be dispatched within 1-3 workdays from the time you place your order.
+          When your order is dispatched, you will receive a shipping confirmation by e-mail.
+          Orders to Denmark above 200€ and all international orders will include a tracking number to your shipping confirmation.
+           All orders within EU are shipped via GLS and outside Europe orders are shipped via TNT, UPS and FedEx.
+           The following shipping charges will be added to your order: 50 rupees</p>
+        </div>
+
+        <div id="Privacy Policy" class="w3-container city">
+         <p>All your personal information is handled under strict confidence.
+         microStore.com will never give any of your personal information to 3rd parties.
+         All information is encrypted for safety.</p>
+        </div>
+
+        <div id="Security" class="w3-container city">
+         <p>For the safety of your personal information, we use SLL encryption on all data to and from the site.
+         When placing an order, you can immediately check the security validity by clicking the padlock icon that appears in
+         the URL line of your browser when SSL is activated.</p>
+        </div>
+
+        <div id="Cookies" class="w3-container city">
+        <p>Cookies are used by microStore.com in order to improve your experience when browsing and using the website.
+        The cookie identifies your computer and allows the site to remember your personal settings.
+         microStore.com may not operate properly when cookies are disabled in your web browser.</p>
+        </div>
+
+        <div class="w3-container w3-light-grey w3-padding">
+         <button class="w3-button w3-right w3-white w3-border"
+         onclick="document.getElementById('id01').style.display='none'">Close</button>
+        </div>
+  </div>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("toggle");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 6000);
+}
+
+// accordin function
+      function accFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+          } else {
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
+//Terms Modal Information
+document.getElementsByClassName("tablink")[0].click();
+
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].classList.remove("w3-light-grey");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.classList.add("w3-light-grey");
+}
+</script>
+</body>
+</html>
